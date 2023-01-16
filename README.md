@@ -3,7 +3,7 @@
 ## Table of Contents
 
    - [Introduction](#introduction)
-   - [Software Development Life Cycle](#Software Development Life Cycle)
+   - [Software Development Life Cycle](#SoftwareDevelopmentLifeCycle)
 
 ## Introduction
 Key Elements of Software Engineering
