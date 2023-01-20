@@ -49,7 +49,7 @@ The process of gathering stakeholder wants and wishes and turning them into an a
 ### Software Development Life Cycle Concept Map
 ![sdlc](https://user-images.githubusercontent.com/79364739/212735072-ed1be2fa-dcc3-4385-8d22-514b2eb488c8.jpg)
 
-### Software Development and Requirements Engineering Concept
+## Software Development and Requirements Engineering Concept
 ### Scrum, Agile Development Techniques and Scaling
 A team completes a predetermined amount of work during a timed period called a Scrum sprint cycle. Each sprint begins as soon as the previous one is over and lasts for two to four weeks on average. The Scrum sprint cycle is frequently described as a continuous development method.
 
