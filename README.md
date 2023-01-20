@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-   - [1.0 - Introduction](#1.0---introduction)
+   - [1.0 - Introduction](#1.0-introduction)
    - [2.0 - Software Engineering and SDLC Concept Map](#Software-Engineering-and-SDLC-Concept-Map)
       - [2.1 - Key Elements of Software Engineering](#Key-Elements-of-Software-Engineering)
       - [2.2 - Applicable Software Engineering Methodologies](#Applicable-Software-Engineering-Methodologies)
@@ -15,7 +15,7 @@
       - [3.3 - Functional and Non-Functional Requirements](#Functional-and-Non-Functional-Requirements)
       - [3.4 - Main Activities for Requirements Engineering](#Main-Activities-for-Requirements-Engineering)
 
-## 1.0 - Introduction
+## 1.0 Introduction
 Government, society, and domestic and foreign enterprises and organizations all depend on software engineering to function. The modern world cannot function without software. Most electrical items include a computer and controlling software, and computer-based systems are used to manage national infrastructure and utilities. Both the financial system and industrial manufacture and distribution are fully automated. Software is used extensively in the entertainment sector, which includes the music business, video games, and film and television. By 2016, practically all software-controlled mobile phones will be Internet-capable, with more than 75% of the world's population having one.
 
 Software systems are ethereal and abstract. They are not limited by the characteristics of the materials, nor are they controlled by physical principles or production procedures. Since software's potential has no inherent boundaries, this makes software engineering simpler. However, due to the lack of physical limitations, software systems can easily grow to be very complicated, challenging to comprehend, and expensive to modify.
