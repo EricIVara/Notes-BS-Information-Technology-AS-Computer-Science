@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-   - [1.0 - Introduction](#1.0-introduction)
+   - [1.0Introduction](#1.0-introduction)
    - [2.0 - Software Engineering and SDLC Concept Map](#Software-Engineering-and-SDLC-Concept-Map)
       - [2.1 - Key Elements of Software Engineering](#Key-Elements-of-Software-Engineering)
       - [2.2 - Applicable Software Engineering Methodologies](#Applicable-Software-Engineering-Methodologies)
