@@ -13,7 +13,7 @@
       - [Scrum, Agile Development Techniques and Scaling](#Scrum,-Agile-Development-Techniques-and-Scaling)
       - [User and System Requirements](#User-and-System-Requirements)
       - [Functional and Non-Functional Requirements](#Functional-and-Non-Functional-Requirements)
-      - [1.1 Main Activities for Requirements Engineering](#1.1-Main-Activities-for-Requirements-Engineering)
+      - [Main Activities for Requirements Engineering](#Main-Activities-for-Requirements-Engineering)
 
 ## Introduction
 Government, society, and domestic and foreign enterprises and organizations all depend on software engineering to function. The modern world cannot function without software. Most electrical items include a computer and controlling software, and computer-based systems are used to manage national infrastructure and utilities. Both the financial system and industrial manufacture and distribution are fully automated. Software is used extensively in the entertainment sector, which includes the music business, video games, and film and television. By 2016, practically all software-controlled mobile phones will be Internet-capable, with more than 75% of the world's population having one.
@@ -65,7 +65,7 @@ System Requirements: The user accesses the results page to view their test resul
 ### Functional and Non-Functional Requirements
 Functional requirements These include expectations for the system's functionality, its responses to different inputs, and how it would need to respond in certain circumstances. The functional requirements may, in some situations, also explicitly indicate what the system should not accomplish. Requirements that are not functional These are limitations on the products or services the system has to offer. They include limitations imposed by standards, deadline restrictions, and limitations on the development process. Non-functional requirements frequently concern the entire system rather than specific features or services.
 
-### 1.1 Main Activities for Requirements Engineering
+### Main Activities for Requirements Engineering
    -Elucidating Requirements
    Understanding what stakeholders do and how they could utilize a new system to support that work is the goal of the software requirements elicitation process. Software engineers collaborate with stakeholders during requirements elicitation to learn about the application domain, work activities, services, and system features that stakeholders desire, as well as the necessary system performance. hardware limitations, etc.
    
