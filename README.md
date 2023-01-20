@@ -8,7 +8,7 @@
       - [Applicable Software Engineering Methodologies](#Applicable-Software-Engineering-Methodologies)
       - [The Fundamentals of Software Engineering](#The-Fundamentals-of-Software-Engineering)
       - [Software Process Models](#Software-Process-Models)
-      - [Software Development Life Cycle Diagram](#Software-Development-Life-Cycle-Diagram)
+      - [Software Development Life Cycle Concept Map](#Software-Development-Life-Cycle-Concept-Map)
    - [Software Development and Requirements Engineering Concept](#Software-Development-and-Requirements-Engineering-Concept)
       - [Scrum, Agile Development Techniques and Scaling](#Scrum,-Agile-Development-Techniques-and-Scaling)
       - [User and System Requirements](#User-and-System-Requirements)
@@ -46,7 +46,7 @@ The waterfall method separates the process activities of requirements specificat
 ### Software Process Models
 The process of gathering stakeholder wants and wishes and turning them into an accepted set of specific requirements that can be the foundation for all ensuing development operations is known as requirements engineering. Making the problem that is being expressed clear and comprehensive and ensuring that the solution is accurate, reasonable, and efficient are the two goals of requirements engineering approaches. This chapter lists the representative requirements engineering approaches that are currently in use, mostly concentrating on the fundamentals. Requirements engineering techniques are methods for transforming real-world issues into solutions for the digital world. Each approach uses a distinct process to develop the system specification as the solution, each with its own specialized way of thinking about the real-world problem.
 
-### Software Development Life Cycle Diagram
+### Software Development Life Cycle Concept Map
 ![sdlc](https://user-images.githubusercontent.com/79364739/212735072-ed1be2fa-dcc3-4385-8d22-514b2eb488c8.jpg)
 
 ### Software Development and Requirements Engineering Concept
