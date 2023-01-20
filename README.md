@@ -13,7 +13,7 @@
       - [3.1 - Scrum, Agile Development Techniques and Scaling](#Scrum,-Agile-Development-Techniques-and-Scaling)
       - [3.2 - User and System Requirements](#User-and-System-Requirements)
       - [3.3 - Functional and Non-Functional Requirements](#Functional-and-Non-Functional-Requirements)
-      - [3.4 - Main Activities for Requirements Engineering](#3.4-Main-Activities-for-Requirements-Engineering)
+      - [3.4-Main Activities for Requirements Engineering](#3.4-Main-Activities-for-Requirements-Engineering)
 
 ## 1.0 Introduction
 Government, society, and domestic and foreign enterprises and organizations all depend on software engineering to function. The modern world cannot function without software. Most electrical items include a computer and controlling software, and computer-based systems are used to manage national infrastructure and utilities. Both the financial system and industrial manufacture and distribution are fully automated. Software is used extensively in the entertainment sector, which includes the music business, video games, and film and television. By 2016, practically all software-controlled mobile phones will be Internet-capable, with more than 75% of the world's population having one.
