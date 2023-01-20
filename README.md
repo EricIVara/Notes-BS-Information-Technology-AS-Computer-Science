@@ -14,10 +14,6 @@
       - [3.2 - User and System Requirements](#User-and-System-Requirements)
       - [3.3 - Functional and Non-Functional Requirements](#Functional-and-Non-Functional-Requirements)
       - [3.4 - Main Activities for Requirements Engineering](#Main-Activities-for-Requirements-Engineering)
-         - [3.4a - Elucidating Requirements](#Elucidating-Requirements)
-         - [3.4b - Specifying Requirements](#Specifying-Requirements)
-         - [3.4c - Validating Requirements](#Validating-Requirements)
-         - [3.4d - Requirements Always Change](#Requirements-Always-Change)
 
 ## 1.0 - Introduction
 Government, society, and domestic and foreign enterprises and organizations all depend on software engineering to function. The modern world cannot function without software. Most electrical items include a computer and controlling software, and computer-based systems are used to manage national infrastructure and utilities. Both the financial system and industrial manufacture and distribution are fully automated. Software is used extensively in the entertainment sector, which includes the music business, video games, and film and television. By 2016, practically all software-controlled mobile phones will be Internet-capable, with more than 75% of the world's population having one.
@@ -28,11 +24,11 @@ Software systems come in a broad variety of forms, from straightforward embedded
 
 Software disasters and failed software initiatives continue to be widely reported. Modern software development is criticized as not being suited for software engineering. However, in my opinion, two reasons are to blame for a large number of these alleged software failures:
 
- - Increasing system complexity As new software engineering techniques help us to build larger, more complex systems, the demands change. Systems have to be built and delivered more quickly; larger, even more complex systems are required; and systems have to have new capabilities that were previously thought to be impossible. New software engineering techniques have to be developed to meet new the challenges of delivering more complex software.
+ -Increasing system complexity As new software engineering techniques help us to build larger, more complex systems, the demands change. Systems have to be built and delivered more quickly; larger, even more complex systems are required; and systems have to have new capabilities that were previously thought to be impossible. New software engineering techniques have to be developed to meet new the challenges of delivering more complex software.
  
- - Failure to use software engineering methods It is fairly easy to write computer programs without using software engineering methods and techniques. Many companies have drifted into software development as their products and services have evolved. They do not use software engineering methods in their everyday work. Consequently, their software is often more expensive and less reliable than it should be. We need better software engineering education and training to address this problem.
+ -Failure to use software engineering methods It is fairly easy to write computer programs without using software engineering methods and techniques. Many companies have drifted into software development as their products and services have evolved. They do not use software engineering methods in their everyday work. Consequently, their software is often more expensive and less reliable than it should be. We need better software engineering education and training to address this problem.
  
-- Software engineers have every right to be pleased with their accomplishments. Developing complicated software is still a challenge for us, yet without software engineering, we would not have developed the Internet or contemporary telecommunications, nor would we have explored space. It would be more costly and unsafe to go in any way. The 21st century presents several challenges for humanity, including climate change, a shortage of natural resources, shifting demographics, and an increasing global population. To create the systems we require to address these concerns, we will rely on software engineering.
+-Software engineers have every right to be pleased with their accomplishments. Developing complicated software is still a challenge for us, yet without software engineering, we would not have developed the Internet or contemporary telecommunications, nor would we have explored space. It would be more costly and unsafe to go in any way. The 21st century presents several challenges for humanity, including climate change, a shortage of natural resources, shifting demographics, and an increasing global population. To create the systems we require to address these concerns, we will rely on software engineering.
 
 ## 2.0 - Software Engineering and SDLC Concept Map
 ### 2.1 - Key Elements of Software Engineering
@@ -70,14 +66,14 @@ System Requirements: The user accesses the results page to view their test resul
 Functional requirements These include expectations for the system's functionality, its responses to different inputs, and how it would need to respond in certain circumstances. The functional requirements may, in some situations, also explicitly indicate what the system should not accomplish. Requirements that are not functional These are limitations on the products or services the system has to offer. They include limitations imposed by standards, deadline restrictions, and limitations on the development process. Non-functional requirements frequently concern the entire system rather than specific features or services.
 
 ### 3.4 - Main Activities for Requirements Engineering
-   - ### 3.4a - Elucidating Requirements
+   -Elucidating Requirements
    Understanding what stakeholders do and how they could utilize a new system to support that work is the goal of the software requirements elicitation process. Software engineers collaborate with stakeholders during requirements elicitation to learn about the application domain, work activities, services, and system features that stakeholders desire, as well as the necessary system performance. hardware limitations, etc.
    
-   - ### 3.4b - Specifying Requirements
+   -Specifying Requirements
    Writing down the user and system needs in a requirements document is the process known as requirements specification. The requirements for the user and the system should be distinct, straightforward, simple to comprehend, comprehensive, and consistent.
    
-   - ### 3.4c - Validating Requirements
+   -Validating Requirements
    Writing down the user and system needs in a requirements document is the process known as requirements specification. The requirements for the user and the system should be distinct, straightforward, simple to comprehend, comprehensive, and consistent.
    
-   - ### 3.4d - Requirements Always Change
+   -Requirements Always Change
    New requirements always appear once a system has been implemented and is being utilized frequently. This is partially due to mistakes and omissions in the initial specifications that must be fixed. However, changes to the system's business environment are the main driver of changes in system requirements.
