@@ -8,12 +8,13 @@
       - [Applicable Software Engineering Methodologies](#Applicable-Software-Engineering-Methodologies)
       - [The Fundamentals of Software Engineering](#The-Fundamentals-of-Software-Engineering)
       - [Software Process Models](#Software-Process-Models)
-      - [Software Development Life Cycle](#Software-Development-Life-Cycle)
+      - [Software Development Life Cycle Diagram](#Software-Development-Life-Cycle-Diagram)
    - [Software Development and Requirements Engineering Concept](#Software-Development-and-Requirements-Engineering-Concept)
       - [Scrum, Agile Development Techniques and Scaling](#Scrum,-Agile-Development-Techniques-and-Scaling)
       - [User and System Requirements](#User-and-System-Requirements)
       - [Functional and Non-Functional Requirements](#Functional-and-Non-Functional-Requirements)
       - [Main Activities for Requirements Engineering](#Main-Activities-for-Requirements-Engineering)
+      - [Software Development Life Cycle and Requirements Engineering Concept Map](#Software-Development-Life-Cycle-and-Requirements-Engineering-Concept-Map)
 
 ## Introduction
 Government, society, and domestic and foreign enterprises and organizations all depend on software engineering to function. The modern world cannot function without software. Most electrical items include a computer and controlling software, and computer-based systems are used to manage national infrastructure and utilities. Both the financial system and industrial manufacture and distribution are fully automated. Software is used extensively in the entertainment sector, which includes the music business, video games, and film and television. By 2016, practically all software-controlled mobile phones will be Internet-capable, with more than 75% of the world's population having one.
@@ -45,7 +46,7 @@ The waterfall method separates the process activities of requirements specificat
 ### Software Process Models
 The process of gathering stakeholder wants and wishes and turning them into an accepted set of specific requirements that can be the foundation for all ensuing development operations is known as requirements engineering. Making the problem that is being expressed clear and comprehensive and ensuring that the solution is accurate, reasonable, and efficient are the two goals of requirements engineering approaches. This chapter lists the representative requirements engineering approaches that are currently in use, mostly concentrating on the fundamentals. Requirements engineering techniques are methods for transforming real-world issues into solutions for the digital world. Each approach uses a distinct process to develop the system specification as the solution, each with its own specialized way of thinking about the real-world problem.
 
-### Software Development Life Cycle
+### Software Development Life Cycle Diagram
 ![sdlc](https://user-images.githubusercontent.com/79364739/212735072-ed1be2fa-dcc3-4385-8d22-514b2eb488c8.jpg)
 
 ### Software Development and Requirements Engineering Concept
@@ -77,3 +78,6 @@ Functional requirements These include expectations for the system's functionalit
    
    -Requirements Always Change
    New requirements always appear once a system has been implemented and is being utilized frequently. This is partially due to mistakes and omissions in the initial specifications that must be fixed. However, changes to the system's business environment are the main driver of changes in system requirements.
+
+### Software Development Life Cycle and Requirements Engineering Concept Map
+![requirements](https://user-images.githubusercontent.com/79364739/213824457-6c711333-97b8-4b18-89ec-c0a9a2890e60.jpg)
