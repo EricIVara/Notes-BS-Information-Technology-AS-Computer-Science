@@ -36,19 +36,3 @@ Many people think network security is primarily a technical issue, and occasiona
 
 ### Secure Storage
 The need for safe storage, server space, and methods of data transport will increase as more users seek access to more network services and greater network capacity. New methods of securely storing information will be introduced as we figure out effective ways to store all the data we produce. For effective security measures and the rising need for storage, businesses now have thousands of servers that cost hundreds of dollars apiece. Through magical data-disappearing technologies like cloud computing, businesses today have introduced new techniques to reduce security and storage expenses. What's crucial is that cloud providers are turning more toward the security precautions that the government mandates for safe network service communication.
-
-### Simple Network Diagram
-![simple-org-network](https://user-images.githubusercontent.com/79364739/214999515-402b2f61-2b4b-4e22-9137-f9438e794818.png)
-
-## Software Development and Requirements Engineering
-### Scrum, Agile Development Techniques and Scaling
-
-### User and System Requirements
-
-User Requirements: The user's test results must be visible to them.
-
-### Functional and Non-Functional Requirements
-
-### Main Activities for Requirements Engineering
-
-### Software Development Life Cycle and Requirements Engineering Concept Map
