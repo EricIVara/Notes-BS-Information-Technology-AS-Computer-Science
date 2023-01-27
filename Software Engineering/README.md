@@ -2,23 +2,23 @@
 
 ## Table of Contents
 
-   - [Introduction](#introduction)
+   - [1.0 Introduction](#1.0-introduction)
    
-   - [Software Engineering](#Software-Engineering)
+   - [2.0 Software Engineering](#2.0-Software-Engineering)
       - [Key Elements of Software Engineering](#Key-Elements-of-Software-Engineering)
       - [Applicable Software Engineering Methodologies](#Applicable-Software-Engineering-Methodologies)
       - [The Fundamentals of Software Engineering](#The-Fundamentals-of-Software-Engineering)
       - [Software Process Models](#Software-Process-Models)
       - [Software Development Life Cycle Concept Map](#Software-Development-Life-Cycle-Concept-Map)
    
-   - [Software Development and Requirements Engineering](#Software-Development-and-Requirements-Engineering)
+   - [3.0 Software Development and Requirements Engineering](#3.0-Software-Development-and-Requirements-Engineering)
       - [Scrum, Agile Development Techniques and Scaling](#Scrum,-Agile-Development-Techniques-and-Scaling)
       - [User and System Requirements](#User-and-System-Requirements)
       - [Functional and Non-Functional Requirements](#Functional-and-Non-Functional-Requirements)
       - [Main Activities for Requirements Engineering](#Main-Activities-for-Requirements-Engineering)
       - [Software Development Life Cycle and Requirements Engineering Concept Map](#Software-Development-Life-Cycle-and-Requirements-Engineering-Concept-Map)
 
-## Introduction
+## 1.0 Introduction
 Government, society, and domestic and foreign enterprises and organizations all depend on software engineering to function. The modern world cannot function without software. Most electrical items include a computer and controlling software, and computer-based systems are used to manage national infrastructure and utilities. Both the financial system and industrial manufacture and distribution are fully automated. Software is used extensively in the entertainment sector, which includes the music business, video games, and film and television. By 2016, practically all software-controlled mobile phones will be Internet-capable, with more than 75% of the world's population having one.
 
 Software systems are ethereal and abstract. They are not limited by the characteristics of the materials, nor are they controlled by physical principles or production procedures. Since software's potential has no inherent boundaries, this makes software engineering simpler. However, due to the lack of physical limitations, software systems can easily grow to be very complicated, challenging to comprehend, and expensive to modify.
@@ -33,7 +33,7 @@ Software disasters and failed software initiatives continue to be widely reporte
  
 -Software engineers have every right to be pleased with their accomplishments. Developing complicated software is still a challenge for us, yet without software engineering, we would not have developed the Internet or contemporary telecommunications, nor would we have explored space. It would be more costly and unsafe to go in any way. The 21st century presents several challenges for humanity, including climate change, a shortage of natural resources, shifting demographics, and an increasing global population. To create the systems we require to address these concerns, we will rely on software engineering.
 
-## Software Engineering
+## 2.0 Software Engineering
 ### Key Elements of Software Engineering
 Software engineering is the process of designing and building software systems using principles from other disciplines, such as management science and computer science. Despite having a sizable common area of concern, education in software engineering is fundamentally distinct from education in computer science, management science, or other constituent subjects. It is imperative that we define concepts, not merely haphazard collections of techniques, on which to build integrated software engineering programs. We suggest that computer science, management science, communication skills, problem solving, and design methodology should be included in any software engineering curriculum. This is based on our research, teaching, and real-world experience.
 
@@ -51,7 +51,7 @@ The process of gathering stakeholder wants and wishes and turning them into an a
 ### Software Development Life Cycle Concept Map
 ![sdlc](https://user-images.githubusercontent.com/79364739/212735072-ed1be2fa-dcc3-4385-8d22-514b2eb488c8.jpg)
 
-## Software Development and Requirements Engineering
+## 3.0 Software Development and Requirements Engineering
 ### Scrum, Agile Development Techniques and Scaling
 A team completes a predetermined amount of work during a timed period called a Scrum sprint cycle. Each sprint begins as soon as the previous one is over and lasts for two to four weeks on average. The Scrum sprint cycle is frequently described as a continuous development method.
 
