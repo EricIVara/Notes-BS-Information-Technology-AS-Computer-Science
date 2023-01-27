@@ -4,7 +4,7 @@
 
    - [Introduction](#introduction)
    - [Basics of Networking](#Basics-of-Networking)
-      - [Computer Network Communication How Networks Begin to Fail](#Computer-Network-Communication:-How-Networks-Begin-to-Fail)
+      - [Computer Network Communication How Networks Begin to Fail](#Computer-Network-Communication-How-Networks-Begin-to-Fail)
       - [Network Layers](#Network-Layers)
       - [Network Management](#Network-Management)
       - [Secure Storage](#Secure-Storage)
@@ -23,7 +23,7 @@ The internet and its’s computer networks were built to withstand high amounts 
 The various types of network layers offer extremely important communication resource services that enable a clear straightforward standardized path for data flow amongst multiple different networks around the world. Data travels through the internet while following specific organizational standards called the International Organization for Standardization (ISO), for proper computer-to-computer communication between different organizations to provide a strict process for all computers to follow when communicating.
 
 ## Basics of Networking
-### Computer Network Communication: How Networks Begin to Fail
+### Computer Network Communication How Networks Begin to Fail
 Everything changed when the internet was introduced along with its connecting computer networks. The  Internet as well as its computing networks were created to transmit large amounts of information very affectively and efferently from anywhere, and to provide individuals with widespread company access to applications, products, and other data from across the world. However, because this information is transmitting everywhere, cybercriminals may find an easy way of stealing computer contents, files or adding files containing viruses or malware.  Probably one of the most important aspects in managing threats is to understand how exactly communication is being performed and how it’s managed once its' received.
 
 ### Network Layers
