@@ -4,7 +4,7 @@
 
    - [Introduction](#introduction)
    - [Basics of Networking](#Basics-of-Networking)
-      - [Computer Network Communication: How Networks Begin to Fail](#Computer-Network-Communication:-How-Networks-Begin-to-Fail)
+      - [Computer Network Communication How Networks Begin to Fail](#Computer-Network-Communication:-How-Networks-Begin-to-Fail)
       - [Network Layers](#Network-Layers)
       - [Network Management](#Network-Management)
       - [Secure Storage](#Secure-Storage)
