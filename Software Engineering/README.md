@@ -121,13 +121,21 @@ Functional requirements These include expectations for the system's functionalit
 
 ## 4.0 System Modeling and Architectural Design
 
-![5-SystemModeling](https://user-images.githubusercontent.com/79364739/216875939-eab9b5f1-d1aa-485b-a12e-175c982dda5a.jpg)
-
 ### Differences Between Applying Different System Models
+Essential viewpoints in software engineering and systems design include context, interaction, structure, and behavior modeling. To comprehend and create complex systems, various models are used since each one offers a unique perspective on the system under development. Interaction modeling focuses on how components interact with one another, structure modeling offers a thorough perspective of the components, and behavior modeling captures the system's changing behavior over time. Context modeling offers a high-level view of the system's surroundings.
+Context modeling offers a broad perspective of the environment surrounding the system, including outside variables that affect the system's behavior. The focus of interaction modeling is on the relationships and interactions that exist between the various system components. Structure modeling offers a thorough perspective of the system's elements, including a look at their internal organization and interrelationships. Behavior modeling offers a dynamic perspective of the system, capturing how the parts work together and behave over time in response to alterations in the outside world or the actions of other parts.
 
 ### The Model View Controller
 
+![5-SystemModeling](https://user-images.githubusercontent.com/79364739/216875939-eab9b5f1-d1aa-485b-a12e-175c982dda5a.jpg)
+
 ### 5 Unified Modeling Languages
+Software engineers utilize the Model-View-Controller (MVC) design pattern to separate the presentation of information from how the user interacts with it. There are three primary parts to the pattern:
+Model: Represents the application's core data and business logic. The Business Logic Layer or the Data Access Layer would normally be the counterpart of the Model component in a layered architecture.
+View: Gives the viewer a visual representation of the data. The View component would normally match the Presentation Layer in a layered architecture. The View component would normally be built on the client side in a Client-Server architecture.
+Controller: As a bridge between the Model and the View, the Controller manages user input and coordinates updates to both the Model and the View. Layered Architecture is a type of
+By preventing changes to one component from affecting the other components, the MVC pattern's separation of responsibilities enhances the application's maintainability, scalability, and testability. Both the View and the Controller can be updated independently of the Model component, and the Model and Controller can be updated independently of the View.
+In a web-based application, for instance, the Model component might stand in for a database of products and the information related to them, the View component might represent the user interface through which the user is shown the product information, and the Controller component might manage user input, such as adding or removing products from the database.
 
 ![6-ArchitecturalDesign](https://user-images.githubusercontent.com/79364739/216875947-9fa0e3a4-df44-45ec-ae19-4f08626f5003.jpg)
 
