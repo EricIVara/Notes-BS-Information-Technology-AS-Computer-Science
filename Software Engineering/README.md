@@ -207,7 +207,6 @@ High Quality, Low Business Value: These systems have high quality but low busine
 
 Low Quality, Low Business Value: These systems have low quality and low business value, meaning they have poor technical characteristics and deliver little value to the business.
 
-
 ### Types of Software Maintenance
 Software maintenance refers to the process of modifying and updating a software system after it has been delivered to the customer. There are three main types of software maintenance:
 
