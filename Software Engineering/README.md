@@ -25,19 +25,18 @@
       - [Behavioral Modeling](#Behavioral-Modeling)
       - [Generic Models of Application Systems](#Generic-Models-of-Application-Systems)
       
-   - [5.0 ](#5.0-)
-      - [](#)
-      - [](#)
-      - [](#)
-      - [](#)
-      - [](#)
+   - [5.0 Software Design, Implementation, and Testing](#5.0-Software-Design,-Implementation,-and-Testing)
+      - [Software Reuse](#Software-Reuse)
+      - [The Fundamental Configuration Management Activities](#The-Fundamental-Configuration-Management-Activities)
+      - [Host-Target Development Platform](#Host-TargetDevelopment-Platform)
+      - [Open-Source Development](#Open-Source-Development)
+      - [Software Inspection](#Software-Inspection)
+      - [Development and User Testing](#Development-and-User-Testing)
       
-   - [6.0 ](#6.0-)
-      - [](#)
-      - [](#)
-      - [](#)
-      - [](#)
-      - [](#)
+   - [6.0 Software Evolution and Maintenance](#6.0-Software-Evolution-and-Maintenance)
+      - [Four Clusters of N Systems](#Four Clusters of N Systems)
+      - [Types of Software Maintenance](#Types of Software Maintenance)
+      - [Reengineering of the Software Process](#Reengineering of the Software Process)
       
       
       
@@ -127,3 +126,27 @@ Functional requirements These include expectations for the system's functionalit
 ### 5 Unified Modeling Languages
 ### Behavioral Modeling
 ### Generic Models of Application Systems
+###
+
+
+
+
+
+## 5.0 Software Design, Implementation, and Testing
+### Software Reuse
+### The Fundamental Configuration Management Activities
+### Host-Target Development Platform
+### Open-Source Development
+### Software Inspection
+### Development and User Testing
+###
+
+
+
+
+## 6.0 Software Evolution and Maintenance
+### Four Clusters of N Systems
+### Types of Software Maintenance
+### Reengineering of the Software Process
+### Software Evolution
+![Uploading 9-SoftwareEvolution.jpg…]()
