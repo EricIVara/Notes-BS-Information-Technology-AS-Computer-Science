@@ -9,14 +9,12 @@
       - [Applicable Software Engineering Methodologies](#Applicable-Software-Engineering-Methodologies)
       - [The Fundamentals of Software Engineering](#The-Fundamentals-of-Software-Engineering)
       - [Software Process Models](#Software-Process-Models)
-      - [Software Development Life Cycle Concept Map](#Software-Development-Life-Cycle-Concept-Map)
    
    - [3.0 Software Development and Requirements Engineering](#3.0-Software-Development-and-Requirements-Engineering)
       - [Scrum, Agile Development Techniques and Scaling](#Scrum,-Agile-Development-Techniques-and-Scaling)
       - [User and System Requirements](#User-and-System-Requirements)
       - [Functional and Non-Functional Requirements](#Functional-and-Non-Functional-Requirements)
       - [Main Activities for Requirements Engineering](#Main-Activities-for-Requirements-Engineering)
-      - [Software Development Life Cycle and Requirements Engineering Concept Map](#Software-Development-Life-Cycle-and-Requirements-Engineering-Concept-Map)
       
    - [4.0 System Modeling and Architectural Design](#4.0-System-Modeling-and-Architectural-Design)
       - [Differences Between Applying Different System Models](#Differences-Between-Applying-Different-System-Models)
@@ -24,7 +22,6 @@
       - [5 Unified Modeling Languages ](#5-Unified-Modeling-Languages )
       - [Behavioral Modeling](#Behavioral-Modeling)
       - [Generic Models of Application Systems](#Generic-Models-of-Application-Systems)
-      - [System Modeling and Architectural Design Concept Maps](#System-Modeling-and-Architectural-Design-Concept-Maps)
       
    - [5.0 Software Design, Implementation, and Testing](#5.0-Software-Design,-Implementation,-and-Testing)
       - [Software Reuse](#Software-Reuse)
@@ -33,13 +30,11 @@
       - [Open-Source Development](#Open-Source-Development)
       - [Software Inspection](#Software-Inspection)
       - [Development and User Testing](#Development-and-User-Testing)
-      - [Software Design, Implementation, and Testing Concept Maps](#Software-Design,-Implementation,-and-Testing-Concept-Maps)
       
    - [6.0 Software Evolution and Maintenance](#6.0-Software-Evolution-and-Maintenance)
       - [Four Clusters of N Systems](#Four-Clusters-of-N-Systems)
       - [Types of Software Maintenance](#Types-of-Software-Maintenance)
       - [Reengineering of the Software Process](#Reengineering-of-the-Software-Process)
-      - [Software Evolution Concept Map](#Software-Evolution-Concept-Map)
       
       
       
@@ -73,6 +68,8 @@ Software engineering is the process of designing and building software systems u
 ### Applicable Software Engineering Methodologies
 When implementing new features, teams employ the agile development technique to reduce risk. Teams create software in iterations that include tiny increments of new functionality according to all agile development methodologies. The agile development methodology comes in a variety of forms, including as scrum, crystal, extreme programming (XP), and feature-driven development.
 
+![3-SoftwareProcesses](https://user-images.githubusercontent.com/79364739/216875404-5d30fce3-794b-4857-99b3-d2409e07a85c.jpg)
+
 ### The Fundamentals of Software Engineering
 A software process, sometimes referred to as a software methodology, is a collection of related tasks that result in the creation of software. These tasks could include creating new software from scratch or altering an existing one. The following four actions must be included in any software process:
 Software specifications define the primary software functionality and the restrictions that apply to them in the software specification (also known as requirements engineering). Software design and implementation is Programming and design of the software are required. Software validation the software must adhere to its specification and satisfy the needs of the user. Software evolution is the software being updated to reflect changes in customer and market demands. In actuality, they comprise sub-activities like unit testing, architectural design, and requirements validation.
@@ -80,10 +77,6 @@ The waterfall method separates the process activities of requirements specificat
 
 ### Software Process Models
 The process of gathering stakeholder wants and wishes and turning them into an accepted set of specific requirements that can be the foundation for all ensuing development operations is known as requirements engineering. Making the problem that is being expressed clear and comprehensive and ensuring that the solution is accurate, reasonable, and efficient are the two goals of requirements engineering approaches. This chapter lists the representative requirements engineering approaches that are currently in use, mostly concentrating on the fundamentals. Requirements engineering techniques are methods for transforming real-world issues into solutions for the digital world. Each approach uses a distinct process to develop the system specification as the solution, each with its own specialized way of thinking about the real-world problem.
-
-### Software Development Life Cycle Concept Map
-![3-SoftwareProcesses](https://user-images.githubusercontent.com/79364739/216875404-5d30fce3-794b-4857-99b3-d2409e07a85c.jpg)
-
 
 
 
@@ -104,6 +97,8 @@ Users and system needs are not that different from one another. User requirement
 User Requirements: The user's test results must be visible to them.
 System Requirements: The user accesses the results page to view their test results as per the system requirement.
 
+![4-RequirementsEngineering](https://user-images.githubusercontent.com/79364739/216875618-2a9580d8-7b76-442a-ad4e-9cc30958e92c.jpg)
+
 ### Functional and Non-Functional Requirements
 Functional requirements These include expectations for the system's functionality, its responses to different inputs, and how it would need to respond in certain circumstances. The functional requirements may, in some situations, also explicitly indicate what the system should not accomplish. Requirements that are not functional These are limitations on the products or services the system has to offer. They include limitations imposed by standards, deadline restrictions, and limitations on the development process. Non-functional requirements frequently concern the entire system rather than specific features or services.
 
@@ -120,15 +115,13 @@ Functional requirements These include expectations for the system's functionalit
    -Requirements Always Change
    New requirements always appear once a system has been implemented and is being utilized frequently. This is partially due to mistakes and omissions in the initial specifications that must be fixed. However, changes to the system's business environment are the main driver of changes in system requirements.
 
-### Software Development Life Cycle and Requirements Engineering Concept Map
-![4-RequirementsEngineering](https://user-images.githubusercontent.com/79364739/216875618-2a9580d8-7b76-442a-ad4e-9cc30958e92c.jpg)
-
-
 
 
 
 
 ## 4.0 System Modeling and Architectural Design
+
+![5-SystemModeling](https://user-images.githubusercontent.com/79364739/216875939-eab9b5f1-d1aa-485b-a12e-175c982dda5a.jpg)
 
 ### Differences Between Applying Different System Models
 
@@ -136,13 +129,11 @@ Functional requirements These include expectations for the system's functionalit
 
 ### 5 Unified Modeling Languages
 
+![6-ArchitecturalDesign](https://user-images.githubusercontent.com/79364739/216875947-9fa0e3a4-df44-45ec-ae19-4f08626f5003.jpg)
+
 ### Behavioral Modeling
 
 ### Generic Models of Application Systems
-
-### System Modeling and Architectural Design Concept Maps
-![5-SystemModeling](https://user-images.githubusercontent.com/79364739/216875939-eab9b5f1-d1aa-485b-a12e-175c982dda5a.jpg)
-![6-ArchitecturalDesign](https://user-images.githubusercontent.com/79364739/216875947-9fa0e3a4-df44-45ec-ae19-4f08626f5003.jpg)
 
 
 
@@ -156,15 +147,17 @@ Functional requirements These include expectations for the system's functionalit
 
 ### Host-Target Development Platform
 
+![7-DesignAndImplementation](https://user-images.githubusercontent.com/79364739/216876005-f0472e41-fe57-4561-a7ad-f0a3db1db769.jpg)
+
 ### Open-Source Development
 
 ### Software Inspection
 
 ### Development and User Testing
 
-### Software Design, Implementation, and Testing Concept Maps
-![7-DesignAndImplementation](https://user-images.githubusercontent.com/79364739/216876005-f0472e41-fe57-4561-a7ad-f0a3db1db769.jpg)
 ![8-SoftwareTesting](https://user-images.githubusercontent.com/79364739/216876014-00ae4fa1-70cf-45dd-b258-b664ce0c955d.jpg)
+
+### Software Design, Implementation, and Testing Concept Maps
 
 
 
@@ -176,9 +169,10 @@ Functional requirements These include expectations for the system's functionalit
 
 ### Types of Software Maintenance
 
+![9-SoftwareEvolution](https://user-images.githubusercontent.com/79364739/216876107-675874ed-e6d9-405a-9e14-b15aee81a9f8.jpg)
+
 ### Reengineering of the Software Process
 
 ### Software Evolution
 
 ### Software Evolution Concept Map
-![9-SoftwareEvolution](https://user-images.githubusercontent.com/79364739/216876107-675874ed-e6d9-405a-9e14-b15aee81a9f8.jpg)
