@@ -20,10 +20,10 @@
       
    - [4.0 System Modeling and Architectural Design](#4.0-System-Modeling-and-Architectural-Design)
       - [Differences Between Applying Different System Models](#Differences-Between-Applying-Different-System-Models)
-      - [The Model View Controller](#The Model View Controller)
-      - [5 Unified Modeling Languages ](#5 Unified Modeling Languages )
-      - [Behavioral Modeling](#Behavioral Modeling)
-      - [Generic Models of Application Systems](#Generic Models of Application Systems)
+      - [The Model View Controller](#The-Model-View-Controller)
+      - [5 Unified Modeling Languages ](#5-Unified-Modeling-Languages )
+      - [Behavioral Modeling](#Behavioral-Modeling)
+      - [Generic Models of Application Systems](#Generic-Models-of-Application-Systems)
       
    - [5.0 ](#5.0-)
       - [](#)
