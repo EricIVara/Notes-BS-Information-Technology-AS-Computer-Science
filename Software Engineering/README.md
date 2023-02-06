@@ -11,26 +11,26 @@
       - [Software Testing Plans](#Software-Testing-Plans)
       - [Software Engineering Applied to Real Life](#Software-Engineering-Applied-to-Real-Life)
    
-   - [2.0 Software Engineering](#2.0-Software-Engineering)
+   - [Software Engineering](#Software-Engineering)
       - [Key Elements of Software Engineering](#Key-Elements-of-Software-Engineering)
       - [Applicable Software Engineering Methodologies](#Applicable-Software-Engineering-Methodologies)
       - [The Fundamentals of Software Engineering](#The-Fundamentals-of-Software-Engineering)
       - [Software Process Models](#Software-Process-Models)
    
-   - [3.0 Software Development and Requirements Engineering](#3.0-Software-Development-and-Requirements-Engineering)
+   - [Software Development and Requirements Engineering](#Software-Development-and-Requirements-Engineering)
       - [Scrum, Agile Development Techniques and Scaling](#Scrum,-Agile-Development-Techniques-and-Scaling)
       - [User and System Requirements](#User-and-System-Requirements)
       - [Functional and Non-Functional Requirements](#Functional-and-Non-Functional-Requirements)
       - [Main Activities for Requirements Engineering](#Main-Activities-for-Requirements-Engineering)
       
-   - [4.0 System Modeling and Architectural Design](#4.0-System-Modeling-and-Architectural-Design)
+   - [ Modeling and Architectural Design](#System-Modeling-and-Architectural-Design)
       - [Differences Between Applying Different System Models](#Differences-Between-Applying-Different-System-Models)
       - [The Model View Controller](#The-Model-View-Controller)
       - [5 Unified Modeling Languages ](#5-Unified-Modeling-Languages )
       - [Behavioral Modeling](#Behavioral-Modeling)
       - [Generic Models of Application Systems](#Generic-Models-of-Application-Systems)
       
-   - [5.0 Software Design, Implementation, and Testing](#5.0-Software-Design,-Implementation,-and-Testing)
+   - [Software Design, Implementation, and Testing](#Software-Design,-Implementation,-and-Testing)
       - [Software Reuse](#Software-Reuse)
       - [The Fundamental Configuration Management Activities](#The-Fundamental-Configuration-Management-Activities)
       - [Host-Target Development Platform](#Host-TargetDevelopment-Platform)
@@ -38,7 +38,7 @@
       - [Software Inspection](#Software-Inspection)
       - [Development and User Testing](#Development-and-User-Testing)
       
-   - [6.0 Software Evolution and Maintenance](#6.0-Software-Evolution-and-Maintenance)
+   - [Software Evolution and Maintenance](#Software-Evolution-and-Maintenance)
       - [Four Clusters of N Systems](#Four-Clusters-of-N-Systems)
       - [Types of Software Maintenance](#Types-of-Software-Maintenance)
       - [Reengineering of the Software Process](#Reengineering-of-the-Software-Process)
@@ -116,7 +116,7 @@ In conclusion, the concepts of software engineering are valuable skills that can
 
 
 
-## 2.0 Software Engineering
+## Software Engineering
 
 ### Key Elements of Software Engineering
 Software engineering is the process of designing and building software systems using principles from other disciplines, such as management science and computer science. Despite having a sizable common area of concern, education in software engineering is fundamentally distinct from education in computer science, management science, or other constituent subjects. It is imperative that we define concepts, not merely haphazard collections of techniques, on which to build integrated software engineering programs. We suggest that computer science, management science, communication skills, problem solving, and design methodology should be included in any software engineering curriculum. This is based on our research, teaching, and real-world experience.
@@ -138,7 +138,7 @@ The process of gathering stakeholder wants and wishes and turning them into an a
 
 
 
-## 3.0 Software Development and Requirements Engineering
+## Software Development and Requirements Engineering
 
 ### Scrum, Agile Development Techniques and Scaling
 A team completes a predetermined amount of work during a timed period called a Scrum sprint cycle. Each sprint begins as soon as the previous one is over and lasts for two to four weeks on average. The Scrum sprint cycle is frequently described as a continuous development method.
@@ -175,7 +175,7 @@ Functional requirements These include expectations for the system's functionalit
 
 
 
-## 4.0 System Modeling and Architectural Design
+## System Modeling and Architectural Design
 
 ### Differences Between Applying Different System Models
 Essential viewpoints in software engineering and systems design include context, interaction, structure, and behavior modeling. To comprehend and create complex systems, various models are used since each one offers a unique perspective on the system under development. Interaction modeling focuses on how components interact with one another, structure modeling offers a thorough perspective of the components, and behavior modeling captures the system's changing behavior over time. Context modeling offers a high-level view of the system's surroundings.
@@ -216,7 +216,7 @@ Language Processing System (LPS): An application system that processes and modif
 
 
 
-## 5.0 Software Design, Implementation, and Testing
+## Software Design, Implementation, and Testing
 
 ### Software Reuse
 Software reuse refers to the use of existing software components, modules, or functions in the development of new software systems. There are three main levels of software reuse. Component-level reuse, which refers to the reuse of pre-existing, low-level components such as libraries, frameworks, or tools. There’s Application-level reuse that refers to the reuse of entire pre-existing applications or modules, as a building block for new applications. Domain-level reuse which refers to the reuse of a common, abstract solution to a problem that has been derived from a particular business or technical domain.
@@ -250,7 +250,7 @@ Development testing is a software testing process that occurs during the softwar
 
 
 
-## 6.0 Software Evolution and Maintenance
+## Software Evolution and Maintenance
 
 ### Four Clusters of N Systems
 The four clusters of N systems based on "quality" versus "business value" coordinates can be described as follows:
