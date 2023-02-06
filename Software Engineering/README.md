@@ -3,7 +3,7 @@
 ## Table of Contents
 
    - [1.0 Introduction](#1.0-Introduction)
-      - [The Evolution of Software Engineering: Best Practices and Emerging Trends](#The-Evolution-of-Software-Engineering:-Best-Practices-and-Emerging-Trends)
+      - [The Evolution of Software Engineering Best Practices and Emerging Trends](#The-Evolution-of-Software-Engineering-Best-Practices-and-Emerging-Trends)
       - [Features of Contemporary Software Engineering](#Features-of-Contemporary-Software-Engineering)
       - [Software Engineering Development Techniques](#Software-Engineering-Development-Techniques)
       - [Various System Modeling Fundamentals](#Various-System-Modeling-Fundamentals)
