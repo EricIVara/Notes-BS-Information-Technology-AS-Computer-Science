@@ -123,6 +123,7 @@ Functional requirements These include expectations for the system's functionalit
 
 ### Differences Between Applying Different System Models
 Essential viewpoints in software engineering and systems design include context, interaction, structure, and behavior modeling. To comprehend and create complex systems, various models are used since each one offers a unique perspective on the system under development. Interaction modeling focuses on how components interact with one another, structure modeling offers a thorough perspective of the components, and behavior modeling captures the system's changing behavior over time. Context modeling offers a high-level view of the system's surroundings.
+
 Context modeling offers a broad perspective of the environment surrounding the system, including outside variables that affect the system's behavior. The focus of interaction modeling is on the relationships and interactions that exist between the various system components. Structure modeling offers a thorough perspective of the system's elements, including a look at their internal organization and interrelationships. Behavior modeling offers a dynamic perspective of the system, capturing how the parts work together and behave over time in response to alterations in the outside world or the actions of other parts.
 
 ### The Model View Controller
@@ -131,17 +132,29 @@ Context modeling offers a broad perspective of the environment surrounding the s
 
 ### 5 Unified Modeling Languages
 Software engineers utilize the Model-View-Controller (MVC) design pattern to separate the presentation of information from how the user interacts with it. There are three primary parts to the pattern:
+
 Model: Represents the application's core data and business logic. The Business Logic Layer or the Data Access Layer would normally be the counterpart of the Model component in a layered architecture.
+
 View: Gives the viewer a visual representation of the data. The View component would normally match the Presentation Layer in a layered architecture. The View component would normally be built on the client side in a Client-Server architecture.
+
 Controller: As a bridge between the Model and the View, the Controller manages user input and coordinates updates to both the Model and the View. Layered Architecture is a type of
+
 By preventing changes to one component from affecting the other components, the MVC pattern's separation of responsibilities enhances the application's maintainability, scalability, and testability. Both the View and the Controller can be updated independently of the Model component, and the Model and Controller can be updated independently of the View.
+
 In a web-based application, for instance, the Model component might stand in for a database of products and the information related to them, the View component might represent the user interface through which the user is shown the product information, and the Controller component might manage user input, such as adding or removing products from the database.
 
 ![6-ArchitecturalDesign](https://user-images.githubusercontent.com/79364739/216875947-9fa0e3a4-df44-45ec-ae19-4f08626f5003.jpg)
 
 ### Behavioral Modeling
+A method for describing how a system behaves in response to events is called behavioral modeling. While event-driven modeling concentrates on the occurrences that cause changes in the state of the system, data-driven modeling concentrates on the data that drives the behavior of the system. Both modeling approaches can be used to explain how a system behaves and, depending on the needs of the system, are suitable in certain situations. Data-driven modeling and event-driven modeling are the two basic categories of behavioral modeling (state diagram).
+
+Data-driven modeling: In data-driven modeling, the values of the system's inputs and internal data influence how the system behaves. The model specifies a set of interactions between the system's inputs and outputs, and by resolving these relationships, the system's behavior is ascertained. The information that underlies the system's action is the focus.
+Event-driven modeling (state diagram): In event-driven modeling, the occurrence of events controls the system's behavior. The model outlines the possible states for the system, as well as potential events and the resulting transitions between states. The emphasis is on the occurrences that cause changes in the system's state.
 
 ### Generic Models of Application Systems
+An application system known as a transaction processing system (TPS) processes transactions, the fundamental units of work that cause a change in the state of the system. TPSs are built to ensure the integrity of the data being processed while handling massive quantities of data and numerous transactions quickly.
+
+Language Processing System (LPS): An application system that processes and modifies language data is known as an LPS. An LPS's primary objective is to transform one language into a different way of presenting that language, such as through transcribing spoken language into writing or translating a document from one language to another.
 
 
 
