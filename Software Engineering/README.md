@@ -163,22 +163,32 @@ Language Processing System (LPS): An application system that processes and modif
 ## 5.0 Software Design, Implementation, and Testing
 
 ### Software Reuse
+Software reuse refers to the use of existing software components, modules, or functions in the development of new software systems. There are three main levels of software reuse. Component-level reuse, which refers to the reuse of pre-existing, low-level components such as libraries, frameworks, or tools. There’s Application-level reuse that refers to the reuse of entire pre-existing applications or modules, as a building block for new applications. Domain-level reuse which refers to the reuse of a common, abstract solution to a problem that has been derived from a particular business or technical domain.
+
+The benefits of software reuse include increased productivity which is Reusing existing code can significantly reduce the time and effort required to develop new software. Improved quality that are reused components generally well tested, debugged, and reliable, which can lead to improved overall quality of the new software. Lastly, there are cost savings which consist of reusing existing software can help reduce development costs, as there is no need to create new code from scratch.
+
+Example: Consider a software development company that specializes in developing e-commerce websites. The company can reuse existing code for common functionality such as shopping cart management, payment processing, and customer management, across multiple e-commerce projects, thus reducing the development time and effort for each new project.
 
 ### The Fundamental Configuration Management Activities
+Configuration management (CM) is the process of identifying, organizing, and controlling changes to the software development process and the associated artifacts. The fundamental activities of CM include configuration identification, configuration control, configuration status accounting, configuration auditing, configuration baseline, and configuration change management. These activities are critical for ensuring the integrity and traceability of the software development process, and for ensuring that changes to the product are well controlled and properly documented.
 
 ### Host-Target Development Platform
+A host-target development platform refers to a software development environment in which the software is developed on a host computer and then compiled and executed on a target system. The target system can be an embedded system, a single-board computer, or any other system that runs the software.
+
+The host-target development platform provides the following essential capabilities: cross-compilation, debugging, testing, source code management, integration, and deployment. These capabilities allow the software development process to be streamlined and more efficient, by enabling the software to be developed on a more powerful host computer and tested and debugged on the target system.
 
 ![7-DesignAndImplementation](https://user-images.githubusercontent.com/79364739/216876005-f0472e41-fe57-4561-a7ad-f0a3db1db769.jpg)
 
 ### Open-Source Development
+Open-source development is a model of software development in which the source code of a software product is made publicly available and can be freely used, modified, and distributed. It has become a widely adopted model for software development, and has led to the creation of many popular and widely-used software products, such as the Linux operating system, the Apache web server, and the Python programming language. Leveraging open-source development can provide many benefits, such as lower costs, access to a large pool of talent, and the ability to leverage existing solutions.
 
 ### Software Inspection
+Software inspection is a quality assurance technique that involves reviewing the source code of a software program, usually by a team of peers, to identify defects and improve its quality. This technique helps to complement software testing by identifying problems early in the development process before they become more difficult and costly to fix. Software testing focuses on verifying that a software program meets its specified requirements and works as expected, whereas software inspection focuses on the design and code quality of the software. By combining both techniques, a development team can reduce the number of defects in the final product, save time and resources, and produce higher-quality software.
 
 ### Development and User Testing
+Development testing is a software testing process that occurs during the software development lifecycle and is performed by developers, not just by testers. It is aimed at finding and fixing defects as early as possible, reducing the cost of fixing them, and ensuring that the final product meets the requirements and is of high quality. User testing is a type of software testing that focuses on evaluating a software program from the perspective of its intended users. It is aimed at ensuring that the software meets the needs and expectations of its target audience, and that it is user-friendly and easy to use.
 
 ![8-SoftwareTesting](https://user-images.githubusercontent.com/79364739/216876014-00ae4fa1-70cf-45dd-b258-b664ce0c955d.jpg)
-
-### Software Design, Implementation, and Testing Concept Maps
 
 
 
@@ -187,13 +197,44 @@ Language Processing System (LPS): An application system that processes and modif
 ## 6.0 Software Evolution and Maintenance
 
 ### Four Clusters of N Systems
+The four clusters of N systems based on "quality" versus "business value" coordinates can be described as follows:
+
+High Quality, High Business Value: These systems have both high quality and high business value, meaning they deliver high value to the business and are of high quality.
+
+Low Quality, High Business Value: These systems have high business value but low quality, meaning they deliver high value to the business but have poor technical characteristics.
+
+High Quality, Low Business Value: These systems have high quality but low business value, meaning they have strong technical characteristics but do not deliver significant value to the business.
+
+Low Quality, Low Business Value: These systems have low quality and low business value, meaning they have poor technical characteristics and deliver little value to the business.
+
 
 ### Types of Software Maintenance
+Software maintenance refers to the process of modifying and updating a software system after it has been delivered to the customer. There are three main types of software maintenance:
+
+Corrective Maintenance: This type of maintenance is performed to correct faults or bugs in a software system. It is the process of fixing errors and problems that have been detected in the software.
+
+Adaptive Maintenance: This type of maintenance is performed to adapt the software system to changes in the operating environment. It is the process of modifying the software to work with new hardware or software systems.
+
+Perfective Maintenance: This type of maintenance is performed to improve the functionality and performance of a software system. It is the process of adding new features, improving the user interface, and enhancing the performance of the software.
+
+Each type of maintenance is performed for different reasons and has a different focus. The types of maintenance can overlap and may be performed in combination to ensure the continued operation and effectiveness of the software system.
 
 ![9-SoftwareEvolution](https://user-images.githubusercontent.com/79364739/216876107-675874ed-e6d9-405a-9e14-b15aee81a9f8.jpg)
 
 ### Reengineering of the Software Process
+A general model for the reengineering of software process involves several phases that are used to take a legacy program as input and produce an improved version of the same program as an output. Here are the Phases:
 
-### Software Evolution
+Assessment: This phase involves analyzing the existing software system to determine its strengths and weaknesses, as well as to identify any areas that need to be improved.
 
-### Software Evolution Concept Map
+Reverse Engineering: This phase involves decompiling the existing software to understand its architecture and design, as well as to identify any issues that need to be addressed.
+
+Requirements Analysis: This phase involves identifying the requirements for the improved software system, including any new features, changes to existing features, and performance improvements.
+
+Design: This phase involves creating a detailed design for the improved software system, including its architecture, data structures, and algorithms.
+
+Implementation: This phase involves actually implementing the design, using a programming language, to produce the improved software system.
+
+Testing: This phase involves testing the improved software system to ensure that it meets the requirements and works as intended.
+
+Deployment: This phase involves deploying the improved software system to the production environment, making it available to end users.
+The reengineering of software process is a complex and time-consuming process, but it can lead to significant improvements in the quality, reliability, and performance of the software system.
