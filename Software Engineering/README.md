@@ -11,7 +11,7 @@
       - [Software Testing Plans](#Software-Testing-Plans)
       - [Software Engineering Applied to Real Life](#Software-Engineering-Applied-to-Real-Life)
    
-   - [Software Engineering](#-Software-Engineering)
+   - [Software Engineering](#Software-Engineering)
       - [Key Elements of Software Engineering](#Key-Elements-of-Software-Engineering)
       - [Applicable Software Engineering Methodologies](#Applicable-Software-Engineering-Methodologies)
       - [The Fundamentals of Software Engineering](#The-Fundamentals-of-Software-Engineering)
