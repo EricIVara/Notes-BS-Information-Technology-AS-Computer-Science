@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "d:\\developer\\workspace\\projects\\BS_Degree_Information_Technology_Notes\\BS-Degree-Information-Technology-Notes\\Programming in c++\\code\\A-First_Program.cpp;"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "intelliSenseMode": "windows-msvc-x64"
+        }
+    ],
+    "version": 4
+}
