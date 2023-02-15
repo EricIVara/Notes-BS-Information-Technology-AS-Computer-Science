@@ -6,7 +6,6 @@ int main() {
 
    patronAge = 55;
 
-   /* Your solution goes here  */
    if(patronAge >= 55) {
       cout << "Senior citizen\n";
    } else {

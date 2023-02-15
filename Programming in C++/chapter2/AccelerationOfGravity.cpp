@@ -9,7 +9,6 @@ int main() {
 
    distCenter = 6.38e6;
 
-   /* Your solution goes here  */
    accelGravity = (G * M) / (distCenter * distCenter);   // (G * M) / (d^2)
 
    cout << "accelGravity: " << accelGravity << endl;

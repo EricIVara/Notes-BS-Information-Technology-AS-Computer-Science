@@ -7,7 +7,6 @@ int main() {
    cout << "Enter age: ";
    cin  >> userAge;
    
-   // Note that more than one "if" statement can execute
    if (userAge < 16) {
       cout << "Enjoy your early years." << endl;
    }
