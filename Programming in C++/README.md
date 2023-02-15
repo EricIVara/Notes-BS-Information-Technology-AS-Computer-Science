@@ -139,6 +139,7 @@ Finally, C++ provides a number of low-level features that allow developers to wr
 
 
 ## Flexibility
+C++ is a flexible language that can be used in a wide range of applications. Here are some factors combine to make C++ a flexible language that can be used in a wide range of applications. Whether you are building software for a specific platform, creating complex software systems, or working with other languages, C++ provides the flexibility you need to get the job done.
 [back to top](#Table-of-Contents)
 ###
 ###
