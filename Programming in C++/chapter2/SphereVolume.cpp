@@ -18,7 +18,6 @@ int main() {
 
    cin >> sphereRadius;
 
-   /* Your solution goes here  */
    sphereVolume = (4.0 / 3.0) * piVal * (sphereRadius * sphereRadius * sphereRadius);
 
    cout << sphereVolume << endl;

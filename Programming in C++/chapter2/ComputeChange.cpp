@@ -9,7 +9,6 @@ int main() {
    cin >> amountToChange;
    numFives = amountToChange / 5;
 
-   /* Your solution goes here  */
    numOnes = amountToChange % 5;
 
    cout << "numFives: " << numFives << endl;

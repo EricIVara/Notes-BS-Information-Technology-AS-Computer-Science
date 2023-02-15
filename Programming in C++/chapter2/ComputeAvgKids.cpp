@@ -13,7 +13,6 @@ int main() {
    numKidsC = 5;
    numFamilies = 3;
 
-   /* Your solution goes here  */
    avgKids = (numKidsA + numKidsB + numKidsC) / static_cast<double>(numFamilies);
 
    cout << "Average kids per family: " << avgKids << endl;

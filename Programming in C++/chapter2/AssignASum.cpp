@@ -9,7 +9,6 @@ int main() {
    numNickels = 5;
    numDimes = 6;
 
-   /* Your solution goes here  */
    numCoins = numNickels + numDimes;
 
    cout << "There are  " << numCoins << " coins" << endl;

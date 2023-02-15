@@ -6,7 +6,6 @@ int main() {
    int shipCostCents = 0;
    const int FLAT_FEE_CENTS = 75;
 
-   /* Your solution goes here  */
    const int CENTS_PER_POUND = 25;
    cin >> shipWeightPounds;
    shipCostCents = (shipWeightPounds * CENTS_PER_POUND) + FLAT_FEE_CENTS;
