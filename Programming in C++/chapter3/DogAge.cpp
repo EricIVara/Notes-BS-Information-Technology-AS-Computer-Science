@@ -36,6 +36,22 @@ int main() {
          cout << "That's 37 human years." << endl;
          break;
 
+      case 6:
+         cout << "That's 42 human years." << endl;
+         break;
+
+      case 7:
+         cout << "That's 47 human years." << endl;
+         break;
+
+      case 8:
+         cout << "That's 52 human years." << endl;
+         break;
+
+      case 9:
+         cout << "That's 57 human years." << endl;
+         break;
+
       default:
          cout << "Human years unknown." << endl;
          break;
