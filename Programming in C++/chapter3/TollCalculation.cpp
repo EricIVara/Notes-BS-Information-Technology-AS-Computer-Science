@@ -1,6 +1,6 @@
 #include <iostream>
 #include <iomanip>
-using namespace std
+using namespace std;
 
 int main() {
    int timeHour;      // Time of travel hour (24 hour format)
