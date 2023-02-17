@@ -6,7 +6,7 @@ using namespace std;
 int main() {
   string userInput;
 
-  cout << "Input an abbreviation: " << endl;
+  cout << "Input an abbreviation:" << endl;
   cin >> userInput;
 
   for (int i = 0; i < userInput.length(); i++) {
@@ -21,8 +21,10 @@ int main() {
     cout << "in my humble opinion" << endl;
   } else if (userInput == "tmi") {
     cout << "too much information" << endl;
+  } else if(userInput == "idk") {
+     cout << "I don't know" << endl;
   } else {
-    cout << "Not a valid input" << endl;
+    cout << "Unknown" << endl;
   }
 
   return 0;
