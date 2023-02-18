@@ -60,7 +60,7 @@
             
       
 ## Introduction
-## Efficiency:
+## ⭐Efficiency:
 C++ is a powerful and widely-used programming language that has a number of important characteristics. One of the most significant is its efficiency. C++ is a low-level language that is designed to be fast and efficient, which makes it an excellent choice for applications that require high performance. Some examples of these applications include real-time systems, gaming, and scientific computing.
 C++ achieves its high level of efficiency by giving developers control over low-level memory manipulation and direct access to hardware resources. This means that C++ programs can be highly optimized for specific tasks and take advantage of hardware acceleration, such as GPU computing. As a result, C++ is often used in resource-intensive applications that require high-performance computing.
 
