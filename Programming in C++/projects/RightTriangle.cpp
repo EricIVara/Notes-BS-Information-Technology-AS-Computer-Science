@@ -7,7 +7,7 @@ and symbol triangleChar.
 to output a right triangle that instead uses the user-specified triangleChar character.
 
 
-(2) Modify The first line will have one user-specified character, such as % or *.
+(2) The first line will have one user-specified character, such as % or *.
 Each subsequent line will have one additional user-specified character until the
 number in the triangle's base reaches triangleHeight. Output a space after each
 user-specified character, including after the line's last user-specified character.
@@ -30,7 +30,7 @@ int main() {
    cout << endl;
       
    for(int i = 0; i < triangleHeight; ++i){
-    for(int j = 0; j < i; ++j){
+    for(int j = 0; j <= i; ++j){
         cout << triangleChar << " ";
     }
     cout << endl;
