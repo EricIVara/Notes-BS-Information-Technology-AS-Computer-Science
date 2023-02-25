@@ -1,5 +1,7 @@
 # BS Degree Information Technology Notes
 
+![Logo-University-of-Arizona](https://user-images.githubusercontent.com/79364739/221328943-f2b34fad-5ef8-41f7-84b5-19673099e18a.jpg)
+
 This repository contains my personal notes on software engineering, as I progress through my BS degree in Information Technology. I created this repository to track my understanding and progress in the field, and to serve as a resource for others who are also studying software engineering.
 
 ## Table of Contents
