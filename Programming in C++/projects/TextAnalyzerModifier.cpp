@@ -2,24 +2,37 @@
 #include <string>
 using namespace std;
 
+void OutputWithoutWhitespace(const string usrStr) {
+    for(int i = 0; i < usrStr.length(); ++i) {
+        if(usrStr.at(i) != ' ' && usrStr.at(i) != '\t') {
+            cout << usrStr[i];
+        }
+    }
+}
+
 int GetNumOfCharacters(const string usrStr) {
     int count = 0;
 
-    for(int i = 0; i < usrStr.size(); ++i) {
-        count += 1;
+    for(int i = 0; i < usrStr.length(); ++i) {
+        count++;
     }
 
-    cout << count << endl;
+    return count;
 }
 
 int main() {
     string userString;
 
     cout << "Enter a sentence or phrase:" << endl;
-    cin >> userString;
+    getline(cin, userString);
     cout << "You entered: " << userString << endl;
 
-    GetNumOfCharacters(userString);
+    int numOfChars = GetNumOfCharacters(userString);
+    cout << "Number of characters: " << numOfChars << endl;
+
+    cout << "String with whitespace removed: ";
+    OutputWithoutWhitespace(userString);
+    cout << endl;
 
     return 0;
 }
