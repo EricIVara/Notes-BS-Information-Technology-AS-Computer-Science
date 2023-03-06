@@ -25,12 +25,15 @@ int main() {
 
     cout << "Enter a sentence or phrase:" << endl;
     getline(cin, userString);
+    cout << endl;
     cout << "You entered: " << userString << endl;
+    cout << endl;
+    
 
     int numOfChars = GetNumOfCharacters(userString);
     cout << "Number of characters: " << numOfChars << endl;
 
-    cout << "String with whitespace removed: ";
+    cout << "String with no whitespace: ";
     OutputWithoutWhitespace(userString);
     cout << endl;
 
