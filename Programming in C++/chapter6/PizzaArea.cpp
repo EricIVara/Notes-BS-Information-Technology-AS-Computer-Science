@@ -1,19 +1,22 @@
 #include <iostream>
 using namespace std;
 
-void PrintPizzaArea(double pizzaDiameter) {
+void PrintPizzaVolume(double pizzaDiameter, double pizzaHeight) {
    double pizzaRadius;
    double pizzaArea;
+   double pizzaVolume;
    double piVal = 3.14159265;
 
    pizzaRadius = pizzaDiameter / 2.0;
    pizzaArea = piVal * pizzaRadius * pizzaRadius;
-   cout << pizzaDiameter << " inch pizza is ";
-   cout << pizzaArea << " inches squared." << endl;
+   pizzaVolume = pizzaArea * pizzaHeight;
+   cout << pizzaDiameter << " x " << pizzaHeight << " inch pizza is ";
+   cout << pizzaVolume << " inches cubed." << endl;
 }
 
 int main() {
-   PrintPizzaArea(12.0);
-   PrintPizzaArea(16.0);
+   PrintPizzaVolume(12.0, 0.3);
+   PrintPizzaVolume(12.0, 0.8);
+   PrintPizzaVolume(16.0, 0.8);
    return 0;
 }
