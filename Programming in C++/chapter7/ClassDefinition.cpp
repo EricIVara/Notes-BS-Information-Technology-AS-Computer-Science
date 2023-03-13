@@ -1,5 +1,5 @@
 #include <iostream>
-#include <String>
+#include <string>
 using namespace std;
 
 class Restaurant {
@@ -10,16 +10,14 @@ class Restaurant {
         void SetRating(int userRating) {
             rating = userRating;
         }
-        void Print();
+        void Print() {
+            cout << name << " -- " << rating << endl;
+        }
 
     private:
         string name;
         int rating;
 };
-
-void Restaurant::Print() {
-    cout << name << " -- " << rating << endl;
-}
 
 int main() {
     Restaurant favLunchPlace;
