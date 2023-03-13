@@ -6,17 +6,17 @@ using namespace std;
 // class definition
 class Restaurant {
 public:
-  // mutator inline functions
+  // mutator member functions
   void SetName(string restaurantName);
   void SetRating(int userRating);
 
-  // accessor inline functions
+  // accessor memeber functions
   string GetName() const;
   int GetRating() const;
   void Print() const;
 
-  // private helpers
-private:
+  // private helper functions
+  private:
   string name;
   int rating;
 };

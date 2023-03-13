@@ -1,17 +1,7 @@
 #include <iostream>
-#include <string>
+#include "ClassDefinition.h"
 using namespace std;
 
-class Restaurant {
-    public:
-        void SetName(string restaurantName){ name = restaurantName; }
-        void SetRating(int userRating) { rating = userRating; }
-        void Print() { cout << name << " -- " << rating << endl; }
-
-    private:
-        string name;
-        int rating;
-};
 
 int main() {
     Restaurant favLunchPlace;
