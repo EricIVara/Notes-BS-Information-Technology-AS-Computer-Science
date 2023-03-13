@@ -4,22 +4,18 @@ using namespace std;
 
 class Restaurant {
     public:
-        void SetName(string restaurantName);
-        void SetRating(int userRating);
+        void SetName(string restaurantName){
+            name = restaurantName;
+        }
+        void SetRating(int userRating) {
+            rating = userRating;
+        }
         void Print();
 
     private:
         string name;
         int rating;
 };
-
-void Restaurant::SetName(string restaurantName) {
-    name = restaurantName;
-}
-
-void Restaurant::SetRating(int userRating) {
-    rating = userRating;
-}
 
 void Restaurant::Print() {
     cout << name << " -- " << rating << endl;
