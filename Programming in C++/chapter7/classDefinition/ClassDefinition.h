@@ -17,8 +17,8 @@ public:
 
   // private helper functions
   private:
-  string name;
-  int rating;
+  string name = "In-N-Out";
+  int rating = 5;
 };
 
 #endif
