@@ -6,6 +6,10 @@ using namespace std;
 // class definition
 class Restaurant {
 public:
+
+  // constructor
+  Restaurant();
+
   // mutator member functions
   void SetName(string restaurantName);
   void SetRating(int userRating);
@@ -16,9 +20,9 @@ public:
   void Print() const;
 
   // private helper functions
-  private:
-  string name = "In-N-Out";
-  int rating = 5;
+private:
+  string name;
+  int rating;
 };
 
 #endif

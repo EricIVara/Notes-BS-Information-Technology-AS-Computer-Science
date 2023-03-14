@@ -3,6 +3,12 @@
 #include <string>
 using namespace std;
 
+// constructor
+Restaurant::Restaurant() {
+  name = "No Name";
+  rating = -1;
+}
+
 // mutator inline memeber function definitions
 void Restaurant::SetName(string restaurantName) { name = restaurantName; }
 void Restaurant::SetRating(int userRating) { rating = userRating; }
