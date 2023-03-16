@@ -3,7 +3,8 @@
 #include "ItemToPurchase.h"
 using namespace std;
 
-int main() {
+
+// #todo: add functions to add, delete, and select item from a vector of items, and prices, and a vector consisting of orders placed.
    ItemToPurchase item1, item2;
    string name;
    int price, quantity, totalCost;
