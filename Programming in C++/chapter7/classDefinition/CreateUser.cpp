@@ -1,19 +1,19 @@
-#include "ClassDefinition.h"
+#include "CreateUser.h"
 #include <iostream>
 #include <string>
 using namespace std;
 
 // constructor
-Restaurant::Restaurant() {
-  name = "No Name";
-  rating = -1;
+CreateUser::CreateUser() {
+  username = "No Username";
+  password = "Password";
 }
 
 // mutator inline memeber function definitions
-void Restaurant::SetName(string restaurantName) { name = restaurantName; }
-void Restaurant::SetRating(int userRating) { rating = userRating; }
+void CreateUser::SetUsername(string username) { username = username; }
+void CreateUser::SetPassword(string password) { password = password; }
 
 // accessor inline member function definitions
-string Restaurant::GetName() const { return name; }
-int Restaurant::GetRating() const { return rating; }
-void Restaurant::Print() const { cout << name << " -- " << rating << endl; }
+string CreateUser::GetUsername() const { return username; }
+string CreateUser::GetPassword() const { return password; }
+void CreateUser::Print() const { cout << username << " -- " << password << endl; }

@@ -1,28 +1,27 @@
-#ifndef CLASSDEFINITION_H
-#define CLASSDEFINITION_H
+#ifndef CREATEUSER_H
+#define CREATEUSER_H
 #include <string>
 using namespace std;
 
 // class definition
-class Restaurant {
+class CreateUser {
 public:
 
   // constructor
-  Restaurant();
+  CreateUser();
 
   // mutator member functions
-  void SetName(string restaurantName);
-  void SetRating(int userRating);
+  void SetUsername(string username);
+  void SetPassword(string password);
 
   // accessor memeber functions
-  string GetName() const;
-  int GetRating() const;
+  string GetUsername() const;
+  string GetPassword() const;
   void Print() const;
 
   // private helper functions
 private:
-  string name;
-  int rating;
+  string username, password;
 };
 
 #endif
