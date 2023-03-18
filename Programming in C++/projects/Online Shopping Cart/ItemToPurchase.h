@@ -5,6 +5,8 @@
 using namespace std;
 
 class ItemToPurchase {
+
+   // public class functions  
    public:
       // Default constructor
       ItemToPurchase();

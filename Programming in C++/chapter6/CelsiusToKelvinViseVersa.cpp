@@ -14,7 +14,6 @@ double KelvinToCelsius(double valueKelvin) {
    double valueCelsius;
 
    valueCelsius = valueKelvin - 273.15;
-
    return valueCelsius;
 } 
 
