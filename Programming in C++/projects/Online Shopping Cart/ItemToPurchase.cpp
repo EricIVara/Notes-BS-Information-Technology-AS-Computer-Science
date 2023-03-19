@@ -1,34 +1,18 @@
 #include "ItemToPurchase.h"
 
-// Default constructor
-ItemToPurchase::ItemToPurchase() {
-   itemName = "none";
-   itemPrice = 0;
-   itemQuantity = 0;
-}
+ItemToPurchase::ItemToPurchase() : name_(""), price_(0), quantity_(0) {}
 
-// Mutator functions
-void ItemToPurchase::SetName(string name) {
-   itemName = name;
-}
+ItemToPurchase::ItemToPurchase(string &name, int price, int quantity)
+    : name_(name), price_(price), quantity_(quantity) {}
 
-void ItemToPurchase::SetPrice(int price) {
-   itemPrice = price;
-}
+void ItemToPurchase::SetName(string &name) { name_ = name; }
 
-void ItemToPurchase::SetQuantity(int quantity) {
-   itemQuantity = quantity;
-}
+void ItemToPurchase::SetPrice(int price) { price_ = price; }
 
-// Accessor functions
-string ItemToPurchase::GetName() const {
-   return itemName;
-}
+void ItemToPurchase::SetQuantity(int quantity) { quantity_ = quantity; }
 
-int ItemToPurchase::GetPrice() const {
-   return itemPrice;
-}
+const std::string &ItemToPurchase::GetName() const { return name_; }
 
-int ItemToPurchase::GetQuantity() const {
-   return itemQuantity;
-}
+int ItemToPurchase::GetPrice() const { return price_; }
+
+int ItemToPurchase::GetQuantity() const { return quantity_; }

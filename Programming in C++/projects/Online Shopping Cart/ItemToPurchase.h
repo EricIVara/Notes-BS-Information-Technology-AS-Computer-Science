@@ -1,30 +1,27 @@
-#ifndef ITEMTOPURCHASE_H
-#define ITEMTOPURCHASE_H
+#ifndef ITEM_TO_PURCHASE_H
+#define ITEM_TO_PURCHASE_H
 
-#include <string>
 using namespace std;
 
-class ItemToPurchase {
+#include <string>
 
-   // public class functions  
-   public:
-      // Default constructor
-      ItemToPurchase();
-      
-      // Mutator functions
-      void SetName(string name);
-      void SetPrice(int price);
-      void SetQuantity(int quantity);
-      
-      // Accessor functions
-      string GetName() const;
-      int GetPrice() const;
-      int GetQuantity() const;
-   
-   private:
-      string itemName;
-      int itemPrice;
-      int itemQuantity;
+class ItemToPurchase {
+public:
+  ItemToPurchase();
+  ItemToPurchase(string &name, int price, int quantity);
+
+  void SetName(string &name);
+  void SetPrice(int price);
+  void SetQuantity(int quantity);
+
+  const string &GetName() const;
+  int GetPrice() const;
+  int GetQuantity() const;
+
+private:
+  string name_;
+  int price_;
+  int quantity_;
 };
 
-#endif  /* ITEMTOPURCHASE_H */
+#endif // ITEM_TO_PURCHASE_H

@@ -1,45 +1,106 @@
+#include "Shop.h"
 #include <iostream>
 #include <string>
-#include "ItemToPurchase.h"
+#include <vector>
+
 using namespace std;
 
+int main() {
+  // Prompt the user to enter number of items.
+  // Store the items in a vector of type ItemToPurchase.
+  cout << "How many items would you like to put in your shop: ";
+  int numItems;
+  cin >> numItems;
+  cin.ignore();
 
-// #todo: add functions to add, delete, and select item from a vector of items, and prices, and a vector consisting of orders placed.
-   ItemToPurchase item1, item2;
-   string name;
-   int price, quantity, totalCost;
+  Shop shop;
+  for (int i = 0; i < numItems; ++i) {
+    cout << "Item " << i + 1 << endl;
 
-   // Get user input for first item
-   cout << "Item 1" << endl;
-   cout << "Enter the item name:" << endl;
-   getline(cin, name);
-   item1.SetName(name);
-   cout << "Enter the item price:" << endl;
-   cin >> price;
-   item1.SetPrice(price);
-   cout << "Enter the item quantity:" << endl;
-   cin >> quantity;
-   item1.SetQuantity(quantity);
-   cin.ignore();  // Ignore newline character in input buffer
+    // Get the name of the item
+    cout << "Enter the name of the item: ";
+    string itemName;
+    getline(cin, itemName);
 
-   // Get user input for second item
-   cout << endl << "Item 2" << endl;
-   cout << "Enter the item name:" << endl;
-   getline(cin, name);
-   item2.SetName(name);
-   cout << "Enter the item price:" << endl;
-   cin >> price;
-   item2.SetPrice(price);
-   cout << "Enter the item quantity:" << endl;
-   cin >> quantity;
-   item2.SetQuantity(quantity);
+    // Get the price of the item
+    cout << "Enter the price of the item: ";
+    int itemPrice;
+    cin >> itemPrice;
 
-   // Calculate total cost and output item details
-   totalCost = (item1.GetPrice() * item1.GetQuantity()) + (item2.GetPrice() * item2.GetQuantity());
-   cout << endl << "TOTAL COST" << endl;
-   cout << item1.GetName() << " " << item1.GetQuantity() << " @ $" << item1.GetPrice() << " = $" << (item1.GetPrice() * item1.GetQuantity()) << endl;
-   cout << item2.GetName() << " " << item2.GetQuantity() << " @ $" << item2.GetPrice() << " = $" << (item2.GetPrice() * item2.GetQuantity()) << endl;
-   cout << endl << "Total: $" << totalCost << endl;
+    // Get the quantity of the item
+    cout << "Enter the quantity of the item: ";
+    int itemQuantity;
+    cin >> itemQuantity;
+    cin.ignore();
 
-   return 0;
+    ItemToPurchase item(itemName, itemPrice, itemQuantity);
+    shop.AddItem(item);
+  }
+
+  bool running = true;
+  while (running) {
+    // Prompt the user to select an action
+    cout << "Select an action:\n";
+    cout << "1. Delete an item\n";
+    cout << "2. Add an item\n";
+    cout << "3. View Items in Shop\n";
+    cout << "4. Quit\n";
+
+    int action;
+    cin >> action;
+    cin.ignore();
+
+    switch (action) {
+    case 1: {
+      // Prompt the user to select an item to delete
+      cout << "Enter the name of an item you would like to delete: ";
+      string selectedItem;
+      getline(cin, selectedItem);
+
+      // Delete the selected item from the shop
+      shop.DeleteItem(selectedItem);
+      break;
+    }
+    case 2: {
+      // Get the name of the item
+      cout << "Enter the name of the item: ";
+      string itemName;
+      getline(cin, itemName);
+
+      // Get the price of the item
+      cout << "Enter the price of the item: ";
+      int itemPrice;
+      cin >> itemPrice;
+
+      // Get the quantity of the item
+      cout << "Enter the quantity of the item: ";
+      int itemQuantity;
+      cin >> itemQuantity;
+      cin.ignore();
+
+      ItemToPurchase item(itemName, itemPrice, itemQuantity);
+      shop.AddItem(item);
+      break;
+    }
+    case 3: {
+      // Print out the remaining items in the shop
+      cout << "Remaining items in the shop:\n";
+      for (const auto &item : shop.GetItems()) {
+        cout << item.GetName() << " - $" << item.GetPrice() << " - "
+             << item.GetQuantity() << " in stock\n";
+      }
+      break;
+    }
+    case 4: {
+      running = false;
+      break;
+    }
+    default: {
+      cout << "Invalid action. Please select a valid action.\n";
+      break;
+    }
+    }
+  }
+
+  return 0;
 }
