@@ -1,0 +1,46 @@
+Customer
+	customerID		PK
+	name
+	address
+	email
+
+
+Product
+	productID			PK
+	name
+	description
+	price
+
+
+
+Order
+	orderNum  		PK
+	productID		     FK
+	paymentID			FK
+	orderDate
+	shipDate
+
+
+Payment
+	paymentID			PK
+	customerID		FK
+	cardNum
+	expDate
+	ccv
+	zip
+
+
+
+It’s Easy to Use & Administer
+When compared to MongoDB, MySQL is easier to learn, set up, and maintain, which is why the majority of web developers prefer it. You are not required to spend a lot of money on training current employees or on hiring DBAs. Anyone can become a master MySQL developer, even those without previous experience.
+
+Exceptional Performance
+It can process multiple queries and transactions with optimum speed and distinctive memory caching, regardless of whether you're running an e-commerce application or own a transactional processing system. Clustering and replication can also help you manage a lot of work and concurrent users. Additionally, the most recent MySQL enhancement to speed up data retrieval is the index in performance schema.
+
+It’s Scalable & Flexible
+MySQL offers the scalability and flexibility needed to effectively manage the expanding data needs of businesses. It can scale easily to meet the increasing demands, from deeply embedded applications to large applications that stack terabytes of data. The best option for applications with a smaller footprint, aside from this, is this one.
+
+Supports Large Community
+With more than 11 million active installations, MySQL is unquestionably a well-liked open-source database system. As a result, it has a large user base and tens of thousands of forums where you can find answers to any MySQL issues. There are a lot of resources for MySQL on dev.mysql.com, including blogs, whitepapers, tutorials, webinars, videos, and discussion forums. So, we'll definitely have answers to all of your questions. In addition, the GNU General Public License makes it free to use and allows for source code modification.
+
+Branson, T., Team, E., Taylor, K., &amp; Wiggers, K. (2017, April 14). The 5 best reasons to choose mysql - and its 5 biggest challenges. Dataconomy. Retrieved October 15, 2022, from https://dataconomy.com/2017/04/5-reasons-challenges-mysql/

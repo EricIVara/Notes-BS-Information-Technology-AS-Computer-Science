@@ -1,0 +1,48 @@
+package examples;
+
+import java.util.Random;
+
+public class Array {
+	public static void main(String[] args) {
+		arrayBasics();
+		arrayDice();
+	}
+	
+	public static void arrayBasics() {
+		int eric[] = new int[10];
+		eric[7] = 69;
+		//			or
+		int lauren[] =
+			{10, 5, 13, 56, 89,
+			18, 57, 83, 36, 87};
+		
+		System.out.println(eric[7]);
+		System.out.println(lauren[4]);
+	}
+	
+	public static void arrayTable() {
+		int lauren[] =
+			{10, 5, 13, 56, 89,
+			18, 57, 83, 36, 87};
+		
+		System.out.println("\nIndex\tValue");
+		for(int counter = 0; counter < lauren.length; counter++) {
+			System.out.println(counter + "\t" + lauren[counter]);
+		}
+	}
+	
+	public static void arrayDice() {
+		Random rand = new Random();					// Created an object named random of the Random class
+    	int freq[] = new int[11];					// Array 0-6
+    	
+    	for(int roll = 1; roll < 1000; roll++) {
+    		++freq[1 + rand.nextInt(10)];
+    	}
+    	
+    	System.out.println("Face\tFrequency");
+    	
+    	for(int face = 1; face < freq.length; face++) {
+    		System.out.println(face + "\t" + freq[face]);
+    	}
+	}
+}

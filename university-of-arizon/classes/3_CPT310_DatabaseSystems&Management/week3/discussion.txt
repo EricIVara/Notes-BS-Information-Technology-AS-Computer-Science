@@ -1,0 +1,22 @@
+list the first three normal forms, and describe the criteria required to satisfy each one of them. Support your analysis with practical examples.
+
+
+
+First Normalized Form
+To contain similar data, avoid using many fields in a single table. For instance, a Real Estate Database may have fields for buyer ID 1 and buyer ID 2 to track client information that could come from two different suppliers so as.
+
+What occurs when a third vendor is added? The solution is not to add a field; doing so necessitates changing the software and the table and does not easily accommodate a changing number of vendors. Instead, organize all vendor data into a separate table called Vendors, and then use an item number key or a vendor code key to connect vendors and inventory.
+
+
+
+Second Normalized Form
+Records should only be reliant on the primary key in a table. Think about the address of a Property in a real estate business, for instance. The Property table as well as the Contract, Escrow, Accounts, and Collections table storing addresses all required the address information. Instead of storing the Property address as a separate entry in each of these tables, store it in one place in a separate Address table like the one below.
+
+
+
+Third Normalized Form
+
+
+Li, L. (2019, July 2). Database normalization explained. learn about database normalization by ... Database Normalization Explained. Retrieved October 28, 2022, from https://towardsdatascience.com/database-normalization-explained-53e60a494495 
+
+

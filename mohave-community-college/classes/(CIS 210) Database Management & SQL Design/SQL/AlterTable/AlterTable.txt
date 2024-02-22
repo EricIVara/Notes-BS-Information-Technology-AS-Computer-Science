@@ -1,0 +1,11 @@
+// Add PRIMARY KEY
+ALTER Customers Add PRIMARY KEY (CustomerNum)
+
+// Change CHAR size
+Alter Table Client Alter ClientName CHAR(40);
+
+// Deletes Column
+ALTER TABLE Tasks Drop COLUMN Category;
+
+// Deletes Table
+DROP TABLE SmallClient;

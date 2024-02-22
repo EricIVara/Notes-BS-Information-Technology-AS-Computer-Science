@@ -1,0 +1,5 @@
+// Sorting rows in a Query
+SELECT TaskID, Description, Price		// Feilds
+From Task					// Table
+WHERE Category IN('ACC','HAM','PRI','UPG');	// Criteria
+ORDER BY Price;					// Order rows by Price

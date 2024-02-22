@@ -1,0 +1,49 @@
+package examples;
+import java.util.*;
+
+public class Workbench {
+    public static void main(String[] args) {
+    	Scanner input = new Scanner(System.in);		// Created an object named input of the Scanner class
+    	int day;
+    	boolean running= true;
+    	
+    	do {
+	    	System.out.println("What day is it, enter:\n"
+	    			+ " (1) for Sunday\n"
+	    			+ " (2) for Monday\n"
+	    			+ " (3) for Tuesday\n"
+	    			+ " (4) for Wednesday\n"
+	    			+ " (5) for Thursday\n"
+	    			+ " (6) for Friday\n"
+	    			+ " (7) for Saturday\n");
+	    	day = input.nextInt();
+	    	System.out.println();
+	    	
+	    	switch(day) {
+	    		case 1:
+	    			System.out.println("Sunday\n");
+	    			break;
+	    		case 2:
+	    			System.out.println("Monday\n");
+	    			break;
+	    		case 3:
+	    			System.out.println("Tuesday\n");
+	    			break;
+	    		case 4:
+	    			System.out.println("Wednesday\n");
+	    			break;
+	    		case 5:
+	    			System.out.println("Thrusday\n");
+	    			break;
+	    		case 6:
+	    			System.out.println("Friday\n");
+	    			break;
+	    		case 7:
+	    			System.out.println("Saturday\n");
+	    			break;	
+	    		default:
+	    			System.out.println("Wrong Option\n");
+	    	}
+    	}while(running);
+    }
+}

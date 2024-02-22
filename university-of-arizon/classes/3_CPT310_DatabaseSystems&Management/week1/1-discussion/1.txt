@@ -1,0 +1,10 @@
+Discuss the difference between a Relational and Non-Relational Database in terms of:
+ 
+- the simplicity of design
+Relational databases use tables to store data, while non-relational databases use a hierarchical structure. This makes relational databases easier to use and understand, while non-relational databases are better suited for managing complex data.
+
+Relational databases work with structured data, while NoSQL storage can deal with both structured and unstructured data (so basically, all types of Big Data).
+SQL databases have predefined schemas and NoSQL data storage has dynamic schemas that allow them to deal with unstructured data.
+Relational databases are table-oriented, and NoSQL databases are document-oriented. The relationship-based model of relational databases supports a high level of accuracy and data integrity. If you choose to use a non-relational database, there is a risk of data duplication. Non-relational databases are highly scalable, flexible, and performative. At the same time, maintaining relational databases may become a problem over time.
+
+https://databasetown.com/relational-vs-non-relational-database/#:~:text=Difference%20between%20relational%20and%20non%2Drelational%20database&text=Relational%20databases%20use%20tables%20to,suited%20for%20managing%20complex%20data.

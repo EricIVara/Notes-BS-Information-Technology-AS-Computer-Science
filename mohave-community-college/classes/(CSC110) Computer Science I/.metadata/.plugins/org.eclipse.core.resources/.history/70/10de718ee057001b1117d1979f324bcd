@@ -1,0 +1,35 @@
+package examples;
+import java.util.*;
+
+public class Workbench {
+    public static void main(String[] args) {
+    	Scanner input = new Scanner(System.in);		// Created an object named input of the Scanner class
+    	
+    	System.out.println("What day is it, enter:\n"
+    			+ "\t1 for Sudnay"
+    			+ "\t2 for Monday"
+    			+ "\t3 for Tuesday"
+    			+ "\t4 for Wednesday"
+    			+ "\t5 for Thurday"
+    			+ "\t6 for Friday"
+    			+ "\t7 for Saturday");
+    	int day = input.nextInt();
+    	
+    	switch(day) {
+    	case 1:
+    		System.out.println("Sunday");
+    	case 2:
+    		System.out.println("Monday");
+    	case 3:
+    		System.out.println("Tuesday");
+    	case 4:
+    		System.out.println("Wednesday");
+    	case 5:
+    		System.out.println("Thrusday");
+    	case 6:
+    		System.out.println("Friday");
+    	case 7:
+    		System.out.println("Saturday");
+    	}
+    }
+}

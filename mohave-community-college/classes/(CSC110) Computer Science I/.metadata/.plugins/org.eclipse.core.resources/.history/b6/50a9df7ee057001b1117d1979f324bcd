@@ -1,0 +1,8 @@
+package examples;
+import java.util.*;
+
+public class Workbench {
+    public static void main(String[] args) {
+    	Scanner input = new Scanner(System.in);		// Created an object named input of the Scanner class
+    }
+}

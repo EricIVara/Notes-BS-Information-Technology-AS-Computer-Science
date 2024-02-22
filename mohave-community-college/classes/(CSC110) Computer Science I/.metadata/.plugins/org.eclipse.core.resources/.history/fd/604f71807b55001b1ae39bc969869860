@@ -1,0 +1,21 @@
+package examples;
+import java.util.*;
+
+public class Workbench {
+    public static void main(String[] args) {
+    	Scanner input = new Scanner(System.in);		// Created an object named input of the Scanner class
+    	Random rand = new Random();					// Created an object named random of the Random class
+    	
+    	int freq[] = new int[7];					// Array 0-6
+    	
+    	for(int roll = 1; roll < 1000; roll++) {
+    		++freq[1 + rand.nextInt(6)];
+    	}
+    	
+    	System.out.println("Face\tFrequency");
+    	
+    	for(int face = 1; face < freq.length; face++) {
+    		System.out.println(face + "\t" + freq[face]);
+    	}
+    }
+}
