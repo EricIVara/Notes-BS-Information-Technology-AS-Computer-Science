@@ -25,7 +25,7 @@ Software engineering is a complex and vast field, with many different concepts a
 ## Getting Started
 To get started with this repository, simply clone the repository to your local machine using the following command:
 
-git clone https://github.com/vara78/BS-Degree-Information-Technology-Notes.git
+git clone https://github.com/vara78/AS-ComputerScience-BS-Information-Technology-Notes.git
 
 Once you have the repository on your local machine, you can navigate to each chapter's folder to view my notes and progress. You can also add your own notes, make corrections, or suggest improvements by following the guidelines in the Contributing section.
 
