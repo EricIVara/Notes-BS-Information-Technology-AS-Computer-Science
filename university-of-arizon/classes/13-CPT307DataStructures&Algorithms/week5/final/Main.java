@@ -46,7 +46,9 @@ public class Main {
 
             equipmentList.add(equipment);
         }
+
         EquipmentManager.sortEquipment(equipmentList);
+        EquipmentManager.printSortedEquipment(equipmentList);
 
         System.out.println("Enter the brand name of the equipment to search: ");
         String searchBrandName = scanner.nextLine();
