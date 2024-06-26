@@ -1,3 +1,0 @@
-INDEX VERSION 1.131+C:\Users\varaa\Documents\CSC110\.metadata\.plugins\org.eclipse.jdt.core
-2155982371.index
-1248545562.index

@@ -1,6 +1,0 @@
-// Saves Query as a view 
-CREATE VIEW Hardware AS
-// Creates Query
-SELECTE TaskID, Description, Category, Price
-From Task
-WHERE Category IN('ACC', 'HAM', 'PRI', 'UPG');

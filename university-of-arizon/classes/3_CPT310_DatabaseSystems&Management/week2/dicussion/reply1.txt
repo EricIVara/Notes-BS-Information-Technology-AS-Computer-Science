@@ -1,5 +1,0 @@
-Hello Ben,
-
-I definitely agree with your statement about how it can be difficult to structure your data while viewing the database from an ERD perspective. Although an ER Diagram is useful in outlining the overall structure of the DB and how the data will be stored, we still need to understand the individual entities a little better to properly build out our database.
-
-To better understand our data, I think it's important to understand more about the roots of the relationships and exactly how these tables will relate with one another for proper relational store techniques. I have a feeling we're going to start getting into methods of structuring how the entities will store specified data, and how they will correlate with another table.

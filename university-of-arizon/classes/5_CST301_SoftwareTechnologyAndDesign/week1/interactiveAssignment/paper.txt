@@ -1,6 +1,0 @@
-concept map paper:
-Explain the various elements of the software engineering.
-Provide practical examples where different software engineering methodologies are applicable
-List the fundamental activities involved in software engineering.
-Explain the software process models—Software Development Life Cycle (SDLC) and the waterfall model, including incremental development, integration, and configuration.
-Discuss the major activities for requirements engineering.

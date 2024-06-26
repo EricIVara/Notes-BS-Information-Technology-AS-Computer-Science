@@ -1,4 +1,0 @@
-// Creates Query
-SELECTE TaskID, Description, Category, Price
-From Task
-WHERE Category IN('ACC', 'HAM', 'PRI', 'UPG');
